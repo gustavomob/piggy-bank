@@ -2,12 +2,23 @@
   "expo": {
     "name": "piggy-bank",
     "slug": "piggy-bank",
+    "scheme": "piggy-bank",
     "version": "1.0.0",
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
     "android": {
+      "package": "com.gustavosouza",
       "edgeToEdgeEnabled": true,
       "adaptiveIcon": {
-        "foregroundImage": ""
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F1C88D"
       }
+    },
+    "ios": {
+      "bundleIdentifier": "com.gustavosouza.piggybank",
+      "icon": "./assets/ios-icon.png"
     }
   }
 }
